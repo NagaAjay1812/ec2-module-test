@@ -8,4 +8,4 @@ Modules help in:
 * easy maaintenance
 * Environment separation
 
-* Terraform modules are reusable infrastructure components. In my project, I created a separate EC2 module where all EC2 logic is defined once, including tagging standards. Then I consumed that module from another Terraform project by passing environment-specific variables like AMI ID, instance type, and security groups. This approach improves reusability, consistency, and maintainability across environments.
+- Terraform modules are reusable infrastructure components. In my project, I created a separate EC2 module where all EC2 logic is defined once, including tagging standards. Then I consumed that module from another Terraform project by passing environment-specific variables like AMI ID, instance type, and security groups. This approach improves reusability, consistency, and maintainability across environments.
